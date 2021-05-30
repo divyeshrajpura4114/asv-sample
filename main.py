@@ -177,7 +177,7 @@ if __name__ == '__main__':
 
 	args = GetArgs()
 
-	device = "cpu" #"cuda:7"
+	device = "cuda:0"
 	gpu_id = 0
 	eps = 1e-6
 	batch_size = 32
